@@ -8,6 +8,9 @@
   </div>
   <hr />
   <div>The counter is: {{ storeCounter.oddOrEven }}</div>
+  <hr />
+  <h3>Edit counter:</h3>
+  <input type="number" v-model="storeCounter.count" />
 </template>
 
 <script setup lang="ts">
